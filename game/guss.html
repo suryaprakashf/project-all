@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Word !</title>
+    <link rel="stylesheet" href="guss.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Name !</h1>
+        <p>Missing the letter the character</p>
+        <div id="word-container">
+            <input type="text" id="ip" >
+            <input type="text" id="ip" >
+            <input type="text" id="ip">
+            <input type="text" value="K"  id="ip">
+            <input type="text" id="ip">
+            <input type="text" value="S" id="ip" >
+            <input type="text"value="H" id="ip">
+        </div>
+        <p>You have <span id="guesses-remaining">4</span>
+             guesses remaining.</p>
+             <br>
+             <div class="div">
+             <input type="text" id="letter-input" placeholder="Type one letter">
+             <button onclick="guessLetter()" id="">Guess</button>
+             </div>
+        <button onclick="exitGame()" >Exit Game</button>
+        <button onclick="resetGame()" >Reset Game</button>
+    </div>
+
+    <script>
+        // JavaScript logic for the game would go here
+    </script>
+    
+</body>
+</html>

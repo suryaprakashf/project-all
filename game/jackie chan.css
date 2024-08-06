@@ -1,0 +1,101 @@
+body{
+    background-image: url(5550532.jpg);
+    background-size: cover;
+}
+h2{
+    color: yellow;
+    background-color: red;
+}
+
+h1{
+    background-color: red;
+    width: 900px;
+    height: 30px;
+    margin: 100px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.char,.fchar{
+    display: grid;
+    grid-template-columns: 100px 80px 100px 80px 100px 80px 100px 80px 100px 80px 100px 80px 100px 80px ;
+    grid-template-rows: 100px;
+    justify-content: center;
+    padding-left: 100px;
+}
+.vchar{
+    display: grid;
+    grid-template-columns:100px 80px 100px 80px 100px 80px 100px 80px ;
+    grid-template-rows: 100px;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.hero1,.hero3,.hero5,.hero7,.hero9,.hero11,.hero13,.hero15,
+.fhero1,.fhero3,.fhero5,.fhero7,.fhero9,.fhero11,.fhero13,.fhero15,
+.villain1,.villain3,.villain5,.villain7{
+
+    border: 10px solid none;
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+}
+.hero1{ 
+    background-image: url(dd1f8744797880747e6301d942df351f.jpg);
+}
+.hero3{
+    background-image: url(5550533.jpg); 
+}
+.hero5{
+    background-image: url(5550616.jpg); 
+}
+.hero7{
+    background-image: url(8865945.png);
+}
+.hero9{
+    background-image: url(heroine.jpg);
+}
+.hero11{
+    background-image: url(uncle2.jpg);
+}
+.hero13{
+    background-image: url(img/choso.jpg);
+}
+.fhero1{
+    background-image: url(dragon.jpg);
+}
+.fhero3{
+    background-image: url(snake.jpg);
+}
+.fhero5{
+    background-image: url(tiger.jpg);
+}
+.fhero7{
+    background-image: url(dog.jpg);
+}
+.fhero9{
+    background-image: url(rabbit.jpg);
+}
+.fhero11{
+    background-image: url(horse.jpg);
+}
+.fhero13{
+    background-image: url(mouse.jpg);
+}
+
+.villain1{
+    background-image: url(volter.jpg);
+}
+.villain3{
+    background-image: url(sindu\ son.jpg);
+}
+.villain5{
+    background-image: url(mm.jpeg);
+}
+.villain7{
+    background-image: url(ShenduS3.webp);
+}
+
+
+

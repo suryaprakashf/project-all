@@ -1,0 +1,117 @@
+.grid {
+    display:inline-grid;
+    margin: 100px;
+    background-color: white;
+    padding: 10px;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-gap:1px;
+}
+
+.item1{
+    border: 10px solid purple;
+    padding: 3px;
+    background-color: purple;
+    grid-row: span 2;
+  
+
+}
+.item2{
+    border: 10px solid brown;
+    padding: 3px;
+    background-color: brown;
+    grid-column: span 2;
+}
+
+.item3{
+    border: 10px solid pink;
+    padding: 3px;
+    background-color: pink;
+
+
+}
+
+.item4{
+    border: 10px solid black;
+    padding: 3px;
+    background-color: black;
+    grid-row: span 3;
+}
+
+.item5{
+    border: 10px solid gold;
+    padding: 3px;
+    background-color: gold;
+}
+
+.item6{
+    border: 10px solid grey;
+    padding: 3px;
+    background-color: gray;
+}
+
+.item7{
+    border: 10px solid white;
+    padding: 3px;
+    background-color: white;
+    grid-row: span ;
+}
+
+.item8{
+    border: 10px solid peru;
+    padding: 3px;
+    background-color: peru;
+    grid-column: span 4;
+}
+
+.item9{
+    border: 10px solid sienna;
+    padding: 3px;
+    background-color: sienna;
+}
+
+.item10{
+    border: 10px solid blueviolet;
+    padding: 3px;
+    background-color: blueviolet;
+}
+
+.item11{
+    border: 10px solid  olive;
+    padding: 3px;
+    background-color: olive;
+}
+
+.item12{
+    border: 10px solid red;
+    padding: 3px;
+    background-color: red;
+}
+
+.item13{
+    border: 10px solid blue;
+    padding: 3px;
+    background-color: blue;
+    grid-row: span ;
+}
+
+.item14{
+    border: 10px solid yellow;
+    padding: 3px;
+    background-color: yellow;
+    grid-row: span 2;
+
+}
+
+.item15{
+    border: 10px solid green;
+    padding: 6px;
+    background-color: green;
+    grid-column: span 4;
+}
+.item16{
+    border: 10px solid violet;
+    padding: 6px;
+    background-color: violet;
+    grid-column: span 5;
+}

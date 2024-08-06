@@ -1,0 +1,133 @@
+.box{
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+    border: 10px solid blue;
+    padding: 25px;
+    gap: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:white;
+}
+.item,.item2,.item3{
+    border: 1px solid red;
+    width: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: yellow ;
+    text-align: center;
+    margin: 10px;
+    height: 20px;
+
+}
+
+   
+.item3{
+    border: 1px solid red;
+    width: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: yellow ;
+    text-align: center;
+    margin: 10px;
+    height: 20px;
+}
+.item5{
+    border: 1px solid red;
+    width: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(3, 227, 3) ;
+    text-align: center;
+    margin: 10px;
+    height: 20px;
+    color: white;
+
+}
+.item6{
+    border: 1px solid red;
+    width: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: blue ;
+    text-align: center;
+    margin: 10px;
+    height: 20px;
+    color: white;
+}
+.item7{
+    border: 1px solid red;
+    width: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: blue ;
+    text-align: center;
+    margin: 10px;
+    height: 20px;
+    color: white;
+}
+.item8{
+    border: 1px solid red;
+    width: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(15, 213, 15) ;
+    text-align: center;
+    margin: 10px;
+    height: 20px;
+    color: white;
+    
+}
+.button{
+    margin-top: 15px;
+    text-align: center;
+    width: 50px;
+    margin-left: 150px;
+    
+}
+.button1{
+    text-align: center;
+    margin-left: 80px;
+}
+.button3{
+    margin-left: 190px;
+    bottom: 10px;
+}
+.Exit{
+    display: flex;
+    justify-content: center;
+}
+.Exit button{
+    background-color: blue;
+    color: white;
+}
+.back{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+.Reset{
+    margin-left: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.j{
+    color: green;
+}
+ 
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}    

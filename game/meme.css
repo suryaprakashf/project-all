@@ -1,0 +1,73 @@
+body {
+    background-color: yellow;
+    margin: 100px;
+    
+  }
+  h1{
+    color: blue;
+  }
+  
+  .game-board {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px ;
+    grid-gap: 10px;
+  }
+  #body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+  }
+  .card {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .card.flipped {
+    background-color: white;
+  }
+  
+  .card img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .game-info {
+    margin-top: 230px;
+    text-align: center;
+  
+  }
+  
+  .game-info button {
+    display: flex;
+    background-color: blue;
+    color: white;
+    padding: 20px 10px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+  #reset{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .N{
+    background-color: blue;
+    color: white;
+  }
+  .game-info{
+
+
+  }
